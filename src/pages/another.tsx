@@ -5,10 +5,10 @@ const Article = (): JSX.Element => {
   return (
     <>
       <Head>
-        <meta name="description" content="test another page 22:23" />
+        <meta name="description" content="test another page 22:38" />
       </Head>
       <div>
-        test another page
+        test another page 22:38
       </div>
     </>
   );
