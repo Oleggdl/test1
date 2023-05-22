@@ -6,6 +6,7 @@ const Article = (): JSX.Element => {
     <>
       <Head>
         <meta name="description" content="test another page 22:38" />
+        <title>test another page title 22:38</title>
       </Head>
       <div>
         test another page 22:38
