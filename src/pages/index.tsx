@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>Моя главная страница</title>
+                {/*<title>Моя главная страница</title>*/}
                 <meta name="description" content="Это мое тестовое описание" />
             </Head>
 
