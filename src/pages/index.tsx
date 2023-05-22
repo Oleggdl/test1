@@ -1,16 +1,17 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-const Dashboard = (): JSX.Element => {
-  return (
-    <>
-      <Head>
-        <meta name="description" content="22:38" />
-        <title>test 22:29</title>
-      </Head>
-      <div>
-        test descriprion 22:38
-      </div>
-    </>
-  );
-};
-export default Dashboard;
+export default function Home() {
+    return (
+        <div>
+            <Head>
+                <title>Моя главная страница</title>
+                <meta name="description" content="Это мое тестовое описание" />
+            </Head>
+
+            <main>
+                <h1>Добро пожаловать на мою главную страницу!</h1>
+                <p>Здесь вы можете найти мое тестовое содержимое.</p>
+            </main>
+        </div>
+    );
+}
